@@ -1,0 +1,30 @@
+Quests to make to Mutano
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#Quests to Tech option:
+'what do think about tesla bot?',
+'what do you think about robots?',
+'will robots take over the world?'
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#Quests to Game option
+"What's your favorite game?",
+"Do you prefer Computer games or console games?"
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#Quests to Crypt option
+"what's your favorite crypto?",
+"what's the most valuable crypt?"
+"What's the best crypt?"
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+#Quests to movie option
+'what movie do you like?',
+"what's your favorite movie?",
+'have you watched Sherek? '
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
