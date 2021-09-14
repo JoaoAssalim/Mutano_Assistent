@@ -1,3 +1,11 @@
+'''
+-=-=-=-=-=-=-=-=-=Version one is finished-=-=-=-=-=-=-=-=-=-=-=-
+This is the first Mutano's version.
+this version Mutano just answer the user with pre-responses 
+-=-=-=-=-=-=-=The version two is in development-=-=-=-=-=-=-=-=-
+'''
+
+import os
 import random
 from colorama import Fore
 from Quest_to_Bot import quests
@@ -57,10 +65,11 @@ if choosen_option.isdigit():
     if choosen_option == 1:
         print(f'Hey {name_user} make me a quest technology! (type "ok" to finish the chat)\n')
         while True:
-            quest = input('You: ').lower()
-            if quest in quests.tech_quest:
+            quest_tech = input('You: ').lower()
+            if quest_tech in quests.tech_quest:
                 print(next(tech_quests_assistent()))
-            elif quest == 'ok':
+            elif quest_tech == 'ok':
+                os.system("cls")
                 break
             else:
                 print('Ask one of the available questions')
@@ -69,10 +78,11 @@ if choosen_option.isdigit():
     elif choosen_option == 2:
         print(f'Hey {name_user} make me a quest about games! (type "ok" to finish the chat)\n')
         while True:
-            quest = input('You: ').lower()
-            if quest in quests.games_quest:
+            quest_games = input('You: ').lower()
+            if quest_games in quests.games_quest:
                 print(next(games_quests_assistent()))
-            elif quest == 'ok':
+            elif quest_games == 'ok':
+                os.system("cls")
                 break
             else:
                 print('Ask one of the available questions')
@@ -81,10 +91,11 @@ if choosen_option.isdigit():
     elif choosen_option == 3:
         print(f'Hey {name_user} make me a quest about crypts! (type "ok" to finish the chat)\n')
         while True:
-            quest = input('You: ').lower()
-            if quest in quests.crypt_quest:
+            quest_crypts = input('You: ').lower()
+            if quest_crypts in quests.crypt_quest:
                 print(next(crypto_quests_assistent()))
-            elif quest == 'ok':
+            elif quest_crypts == 'ok':
+                os.system("cls")
                 break
             else:
                 print('Ask one of the available questions')
@@ -93,10 +104,11 @@ if choosen_option.isdigit():
     elif choosen_option == 4:
         print(f'Hey {name_user} make me a quest about Movies! (type "ok" to finish the chat)\n')
         while True:
-            quest = input('You: ').lower()
-            if quest in quests.movie_quest:
+            quest_movies = input('You: ').lower()
+            if quest_movies in quests.movie_quest:
                 print(next(movie_quests_assistent()))
-            elif quest == 'ok':
+            elif quest_movies == 'ok':
+                os.system("cls")
                 break
             else:
                 print('Ask one of the available questions')
@@ -104,6 +116,7 @@ if choosen_option.isdigit():
     
     elif choosen_option == 0:
         print(Fore.CYAN+f'See you soon, {name_user}')
+        os.system("cls")
     
     else:
         print(Fore.RED+'This number is not in menu!')
