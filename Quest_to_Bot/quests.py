@@ -1,3 +1,8 @@
+games_quest = [
+    "what's your favorite game?",
+    "do you prefer computer games or console games?"
+]
+
 tech_quest = [
     'what do think about tesla bot?',
     'what do you think about robots?',
@@ -7,16 +12,11 @@ tech_quest = [
 movie_quest = [
     'what movie do you like?',
     "what's your favorite movie?",
-    'have you watched Sherek? '
+    'have you watched sherek?'
 ]
 
 crypt_quest = [
-    "what's your favorite crypto?",
-    "what's the most valuable crypt?"
-    "What's the best crypt?"
-]
-
-games_quest = [
-    "What's your favorite game?",
-    "Do you prefer Computer games or console games?"
+    'what is your favorite crypto?',
+    'what is the most valuable crypt?',
+    'what is the best crypt?'
 ]
