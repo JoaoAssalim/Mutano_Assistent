@@ -1,5 +1,10 @@
 # Mutano_Assistent
 
+## Dependencies
+```sh
+pip install requirements.txt
+```
+
 To creat a executable file on windows, run this code in the project directory:
 ```sh
 pyinstaller --onefile Mutano.py
