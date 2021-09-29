@@ -1,6 +1,7 @@
 # Mutano_Assistent
 
 ## Dependencies
+To install dependencies, runs the following code in your command prompt.
 ```sh
 pip install requirements.txt
 ```
