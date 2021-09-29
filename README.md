@@ -1,10 +1,13 @@
 # Mutano_Assistent
 
-Mutano will be a personal assitent made by me, it will help you with somethings.
-Mutano Assistent is in development, just its first phase is finished.
+To creat a executable file on windows, run this code in the project directory:
+```sh
+pyinstaller --onefile Mutano.py
+```
+on Linux:
+```sh
+pyinstaller -F Mutano.py
+```
 
-if do you want to help me or give a tip, contact-me:
-
-Gmail: assalim.py@gmail.com
-
-Instagram: JoaoAssalim_
+After you run the code, will creat two folders and a file.spec, you just have to keep the dist folder, because there, is the Mutano.exe.
+Next, you have to put Mutano.exe in a folder to program creat necessary folders/files, and run the aplication.
